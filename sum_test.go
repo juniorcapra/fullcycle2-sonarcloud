@@ -4,9 +4,9 @@ import "testing"
 
 //Teste func
 func TestSum(t *testing.T) {
-	result := sum(3, 3)
+	result := sum(2, 3)
 
-	if result != 6 {
-		t.Error("The result must be 6")
+	if result != 5 {
+		t.Error("The result must be 5")
 	}
 }
